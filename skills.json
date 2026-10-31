@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-31",
+ "updated": "2026-11-01",
  "groups": {
   "builtin": {
    "ar": "مدمجة في Claude",
@@ -33,6 +33,10 @@
   "arcads": {
    "ar": "Arcads AI",
    "color": "#ff5ec4"
+  },
+  "ruflo": {
+   "ar": "Ruflo",
+   "color": "#3ec7ff"
   }
  },
  "skills": [
@@ -1286,6 +1290,16 @@
    "group": "arcads",
    "source": "Arcads AI",
    "url": "https://www.arcads.ai"
+  },
+  {
+   "id": "ruflo:ruflo",
+   "name": "ruflo",
+   "ar": "منسّق الوكلاء Ruflo",
+   "desc": "منصة مفتوحة المصدر لتنسيق عدة وكلاء برمجة بالذكاء الاصطناعي (Claude Code وCursor وCodex وغيرها): تشغيل أسراب وكلاء بتنسيق هرمي، وذاكرة دائمة، وأكثر من 300 أداة MCP، وفحص حالة التثبيت، واقتراح إضافاتها المناسبة لمهمتك.",
+   "group": "ruflo",
+   "source": "ruvnet/ruflo — GitHub (MIT)",
+   "url": "https://github.com/ruvnet/ruflo",
+   "manual": true
   }
  ]
 }
