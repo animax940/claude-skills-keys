@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-11-01",
+ "updated": "2026-10-31",
  "groups": {
   "builtin": {
    "ar": "مدمجة في Claude",
@@ -37,6 +37,10 @@
   "ruflo": {
    "ar": "Ruflo",
    "color": "#3ec7ff"
+  },
+  "ruflo-ai-team": {
+   "ar": "Ruflo AI Team",
+   "color": "#7c5cff"
   }
  },
  "skills": [
@@ -84,15 +88,6 @@
    "group": "builtin",
    "source": "anthropics/skills — GitHub",
    "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
-  },
-  {
-   "id": "builtin:frontend-design",
-   "name": "frontend-design",
-   "ar": "تصميم الواجهات",
-   "desc": "توجيه بصري مميّز عند بناء واجهات المستخدم: الطباعة والألوان والتخطيط.",
-   "group": "builtin",
-   "source": "anthropics/skills — GitHub",
-   "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
   },
   {
    "id": "builtin:docs",
@@ -185,46 +180,10 @@
    "url": "https://claude.ai"
   },
   {
-   "id": "builtin:file-reading",
-   "name": "file-reading",
-   "ar": "قراءة الملفات",
-   "desc": "اختيار الأداة المناسبة لقراءة كل نوع من الملفات المرفوعة.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:cowork-plugin",
-   "name": "cowork-plugin",
-   "ar": "صانع الإضافات",
-   "desc": "إنشاء إضافة (Plugin) جديدة أو تخصيص إضافة مثبتة.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
    "id": "builtin:plugin-authoring",
    "name": "plugin-authoring",
    "ar": "تعديل الواجهة",
    "desc": "صنع تعديلات على واجهة Claude وسلوكه: لوحات، أوامر، خطافات.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:explain-usage",
-   "name": "explain-usage",
-   "ar": "شرح الاستهلاك",
-   "desc": "توضيح أين ذهبت الرموز (Tokens) في الجلسة برسم بسيط.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:setup-claude",
-   "name": "setup-claude",
-   "ar": "إعداد Claude",
-   "desc": "إعداد موجّه: اختيار الدور وتثبيت إضافة وربط الأدوات.",
    "group": "builtin",
    "source": "مدمجة في Claude",
    "url": "https://claude.ai"
@@ -1300,6 +1259,150 @@
    "source": "ruvnet/ruflo — GitHub (MIT)",
    "url": "https://github.com/ruvnet/ruflo",
    "manual": true
+  },
+  {
+   "id": "builtin:artifact-design",
+   "name": "artifact-design",
+   "ar": "تصميم الصفحات المنشورة",
+   "desc": "إرشادات وأساسيات تصميم صفحات Artifacts قبل كتابتها.",
+   "group": "builtin",
+   "source": "مدمجة في Claude",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "builtin:artifact-diagramming",
+   "name": "artifact-diagramming",
+   "ar": "مخططات الصفحات",
+   "desc": "رسم مخططات SVG واضحة تشرح الآلية الفعلية داخل صفحات Artifacts.",
+   "group": "builtin",
+   "source": "مدمجة في Claude",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "builtin:artifact-capabilities",
+   "name": "artifact-capabilities",
+   "ar": "قدرات الصفحات التفاعلية",
+   "desc": "منح الصفحات المنشورة قدرات حية كالبيانات المشتركة وحفظ الحالة ومعرفة الزائر.",
+   "group": "builtin",
+   "source": "مدمجة في Claude",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "builtin:workflow-authoring",
+   "name": "workflow-authoring",
+   "ar": "كتابة سير العمل",
+   "desc": "مرجع لكتابة سكربتات أداة Workflow وأنماط الجودة والاستئناف.",
+   "group": "builtin",
+   "source": "مدمجة في Claude",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:team-start",
+   "name": "team-start",
+   "ar": "بدء فريق ذكاء",
+   "desc": "تخطيط وإنشاء فريق ذكاء اصطناعي لهدف محدد.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:team-board",
+   "name": "team-board",
+   "ar": "لوحة الفريق",
+   "desc": "عرض لوحة مهام الفريق لتشغيل محدد أو لكل الفرق.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:team-status",
+   "name": "team-status",
+   "ar": "حالة الفريق",
+   "desc": "تلخيص تقدّم الفريق والعوائق التي تواجهه.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:team-review",
+   "name": "team-review",
+   "ar": "مراجعة مخرجات الفريق",
+   "desc": "التحقق من مخرجات تشغيل الفريق مقابل معايير القبول.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:team-remember",
+   "name": "team-remember",
+   "ar": "ذاكرة الفريق",
+   "desc": "حفظ سياق معتمد للفريق أو البحث فيما يعرفه مسبقاً.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:team-stop",
+   "name": "team-stop",
+   "ar": "إيقاف الفريق",
+   "desc": "إيقاف الفريق مؤقتاً مع الاحتفاظ بأدلته.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:launch-ai-team",
+   "name": "launch-ai-team",
+   "ar": "إطلاق فريق ذكاء",
+   "desc": "إنشاء فريق بأدوار وميزانية ومهام محددة لتقسيم هدف كبير.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:coordinate-team-work",
+   "name": "coordinate-team-work",
+   "ar": "تنسيق مهام الفريق",
+   "desc": "إنشاء المهام وإسنادها وتحديثها بحيث يكون لكل مهمة مالك ومُخرج واحد.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:monitor-ai-team",
+   "name": "monitor-ai-team",
+   "ar": "متابعة الفريق",
+   "desc": "تقرير بتقدّم الفريق وعوائقه ومُلّاك المهام والميزانية المسجّلة.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:manage-team-lifecycle",
+   "name": "manage-team-lifecycle",
+   "ar": "دورة حياة الفريق",
+   "desc": "إيقاف الفريق أو استئنافه أو إنهاؤه مع الحفاظ على أدلته.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:remember-team-context",
+   "name": "remember-team-context",
+   "ar": "سياق الفريق",
+   "desc": "تخزين سياق معتمد لكل فريق والبحث فيه لاحقاً مع مصدره.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
+  },
+  {
+   "id": "ruflo-ai-team:review-team-deliverables",
+   "name": "review-team-deliverables",
+   "ar": "تدقيق المخرجات",
+   "desc": "فحص تشغيل الفريق مقابل معايير القبول والتمييز بين الأدلة والادعاءات.",
+   "group": "ruflo-ai-team",
+   "source": "ruvnet — Anthropic Directory",
+   "url": "https://claude.ai"
   }
  ]
 }
