@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-31",
+ "updated": "2026-11-10",
  "groups": {
   "builtin": {
    "ar": "مدمجة في Claude",
@@ -21,10 +21,6 @@
   "n8n": {
    "ar": "n8n",
    "color": "#ea4b71"
-  },
-  "replo": {
-   "ar": "Replo",
-   "color": "#00b39b"
   },
   "synter": {
    "ar": "Synter",
@@ -475,168 +471,6 @@
    "group": "n8n",
    "source": "n8n",
    "url": "https://n8n.io"
-  },
-  {
-   "id": "replo:replo",
-   "name": "replo",
-   "ar": "Replo العامة",
-   "desc": "العمل داخل Replo: المواقع والمنتجات والطلبات والملفات والمهام المجدولة.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:building-replo-pages",
-   "name": "building-replo-pages",
-   "ar": "بناء صفحات المتجر",
-   "desc": "إنشاء وتعديل صفحات الهبوط والمنتجات والأقسام في موقع Replo.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:apply-branding",
-   "name": "apply-branding",
-   "ar": "تطبيق الهوية",
-   "desc": "تطبيق ألوان وخطوط وشعار العلامة على الموقع أو الصفحة.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:replo-branding",
-   "name": "replo-branding",
-   "ar": "ملف الهوية",
-   "desc": "إنشاء ملف هوية العلامة من رابط موقع أو ملف Figma.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:figma",
-   "name": "figma",
-   "ar": "من Figma إلى صفحة",
-   "desc": "إعادة بناء تصميم Figma كصفحة مطابقة في Replo.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:publish",
-   "name": "publish",
-   "ar": "النشر",
-   "desc": "نشر التغييرات وجعل الموقع مباشراً.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:custom-domains",
-   "name": "custom-domains",
-   "ar": "النطاقات المخصصة",
-   "desc": "ربط نطاقك الخاص وإعداد سجلات DNS وحل مشاكلها.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:local-development",
-   "name": "local-development",
-   "ar": "التطوير المحلي",
-   "desc": "نسخ كود الموقع والعمل عليه محلياً عبر git.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:product-display",
-   "name": "product-display",
-   "ar": "عرض المنتجات",
-   "desc": "قواعد عرض المنتجات والأسعار والأوصاف.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:shopify",
-   "name": "shopify",
-   "ar": "Shopify",
-   "desc": "التعامل مع منتجات Shopify وبياناتها الإضافية.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:querying-analytics",
-   "name": "querying-analytics",
-   "ar": "استعلام التحليلات",
-   "desc": "تحليل الزيارات والجلسات والمشتريات ومعدلات التحويل.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:statsig",
-   "name": "statsig",
-   "ar": "اختبار A/B",
-   "desc": "إجراء تجارب A/B على الصفحات عبر Statsig.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:tracking-scripts",
-   "name": "tracking-scripts",
-   "ar": "أكواد التتبع",
-   "desc": "إضافة بكسل Meta وGA4 وGTM وموافقة الكوكيز.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:site-metadata-conventions",
-   "name": "site-metadata-conventions",
-   "ar": "بيانات الموقع",
-   "desc": "تعديل عنوان الموقع ووصفه وصورة المشاركة والأيقونة.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:safari-rendering",
-   "name": "safari-rendering",
-   "ar": "مشاكل سفاري",
-   "desc": "تشخيص اختلاف العرض على الآيفون وسفاري.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:okendo",
-   "name": "okendo",
-   "ar": "تقييمات Okendo",
-   "desc": "عرض تقييمات العملاء من Okendo في الصفحات.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:rebuy",
-   "name": "rebuy",
-   "ar": "توصيات Rebuy",
-   "desc": "عرض توصيات المنتجات من Rebuy.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
-  },
-  {
-   "id": "replo:smile-io-integration",
-   "name": "smile-io-integration",
-   "ar": "برنامج الولاء",
-   "desc": "صفحات برنامج الولاء ببيانات Smile.io.",
-   "group": "replo",
-   "source": "replohq/skills — GitHub",
-   "url": "https://github.com/replohq/skills"
   },
   {
    "id": "synter:replicate",
