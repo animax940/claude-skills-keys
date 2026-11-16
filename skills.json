@@ -1,1242 +1,1242 @@
 {
- "version": 1,
- "updated": "2026-11-10",
- "groups": {
-  "builtin": {
-   "ar": "مدمجة في Claude",
-   "color": "#4f7cff"
-  },
-  "marketing": {
-   "ar": "التسويق",
-   "color": "#ff7a59"
-  },
-  "design": {
-   "ar": "التصميم",
-   "color": "#b46cff"
-  },
-  "adobe": {
-   "ar": "Adobe",
-   "color": "#ff3b3b"
-  },
-  "n8n": {
-   "ar": "n8n",
-   "color": "#ea4b71"
-  },
-  "synter": {
-   "ar": "Synter",
-   "color": "#d4af37"
-  },
-  "arcads": {
-   "ar": "Arcads AI",
-   "color": "#ff5ec4"
-  },
-  "ruflo": {
-   "ar": "Ruflo",
-   "color": "#3ec7ff"
-  },
-  "ruflo-ai-team": {
-   "ar": "Ruflo AI Team",
-   "color": "#7c5cff"
-  }
- },
- "skills": [
-  {
-   "id": "builtin:docx",
-   "name": "docx",
-   "ar": "مستندات Word",
-   "desc": "إنشاء وقراءة وتعديل ملفات Word ‏(.docx) بما فيها التعليقات وتتبّع التغييرات.",
-   "group": "builtin",
-   "source": "anthropics/skills — GitHub",
-   "url": "https://github.com/anthropics/skills/tree/main/skills/docx"
-  },
-  {
-   "id": "builtin:pdf",
-   "name": "pdf",
-   "ar": "ملفات PDF",
-   "desc": "قراءة PDF ودمجه وتقسيمه وتعبئة النماذج وإضافة العلامات المائية والتعرّف الضوئي على النص.",
-   "group": "builtin",
-   "source": "anthropics/skills — GitHub",
-   "url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
-  },
-  {
-   "id": "builtin:pptx",
-   "name": "pptx",
-   "ar": "عروض PowerPoint",
-   "desc": "إنشاء العروض التقديمية ‏(.pptx) وتعديلها واستخراج محتواها.",
-   "group": "builtin",
-   "source": "anthropics/skills — GitHub",
-   "url": "https://github.com/anthropics/skills/tree/main/skills/pptx"
-  },
-  {
-   "id": "builtin:xlsx",
-   "name": "xlsx",
-   "ar": "جداول Excel",
-   "desc": "إنشاء جداول البيانات وتنظيفها وإضافة المعادلات والرسوم البيانية.",
-   "group": "builtin",
-   "source": "anthropics/skills — GitHub",
-   "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx"
-  },
-  {
-   "id": "builtin:skill-creator",
-   "name": "skill-creator",
-   "ar": "صانع المهارات",
-   "desc": "إنشاء مهارات جديدة وتحسين المهارات الحالية وقياس أدائها.",
-   "group": "builtin",
-   "source": "anthropics/skills — GitHub",
-   "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
-  },
-  {
-   "id": "builtin:docs",
-   "name": "docs",
-   "ar": "المستندات",
-   "desc": "إنشاء مستندات قابلة للمشاركة والتعليق والتصدير إلى Word أو PDF.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:video-making",
-   "name": "video-making",
-   "ar": "صناعة الفيديو",
-   "desc": "خطوات إنتاج فيديو جديد من الصفر.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:google-workspace",
-   "name": "google-workspace",
-   "ar": "مساحة عمل جوجل",
-   "desc": "إنشاء وتعديل ملفات Google Docs وSheets وSlides في Drive.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:computer-use",
-   "name": "computer-use",
-   "ar": "التحكم بالحاسوب",
-   "desc": "تشغيل تطبيقات حاسوبك بالنقر والكتابة عبر تطبيق Claude لسطح المكتب.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:chrome-browser",
-   "name": "chrome-browser",
-   "ar": "متصفح كروم",
-   "desc": "العمل داخل متصفح كروم الحقيقي عبر إضافة Claude in Chrome.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:built-in-browser",
-   "name": "built-in-browser",
-   "ar": "المتصفح المدمج",
-   "desc": "استخدام لوحة المتصفح داخل تطبيق Claude لسطح المكتب.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:deep-research",
-   "name": "deep-research",
-   "ar": "البحث المعمّق",
-   "desc": "بحث متعدد المصادر وكتابة تقرير سردي شامل.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:import-memory",
-   "name": "import-memory",
-   "ar": "استيراد الذاكرة",
-   "desc": "نقل ذاكرتك من مساعد ذكاء اصطناعي آخر إلى Claude.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:morning",
-   "name": "morning",
-   "ar": "الموجز الصباحي",
-   "desc": "عرض موجزك الصباحي أو جدولته يومياً.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:dataviz",
-   "name": "dataviz",
-   "ar": "تصوير البيانات",
-   "desc": "قواعد تصميم الرسوم البيانية ولوحات المؤشرات بألوان متناسقة.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:plugin-authoring",
-   "name": "plugin-authoring",
-   "ar": "تعديل الواجهة",
-   "desc": "صنع تعديلات على واجهة Claude وسلوكه: لوحات، أوامر، خطافات.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "marketing:brand-review",
-   "name": "brand-review",
-   "ar": "مراجعة الهوية",
-   "desc": "مراجعة المحتوى مقابل صوت العلامة ودليل الأسلوب مع إصلاحات مقترحة.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/brand-review"
-  },
-  {
-   "id": "marketing:campaign-plan",
-   "name": "campaign-plan",
-   "ar": "خطة الحملة",
-   "desc": "موجز حملة كامل: الأهداف والجمهور والقنوات والتقويم والمقاييس.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/campaign-plan"
-  },
-  {
-   "id": "marketing:competitive-brief",
-   "name": "competitive-brief",
-   "ar": "موجز المنافسين",
-   "desc": "بحث المنافسين ومقارنة الرسائل وكشف الفرص والثغرات.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/competitive-brief"
-  },
-  {
-   "id": "marketing:content-creation",
-   "name": "content-creation",
-   "ar": "إنشاء المحتوى",
-   "desc": "كتابة محتوى تسويقي لكل قناة: مدونات ووسائل تواصل وبريد.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/content-creation"
-  },
-  {
-   "id": "marketing:draft-content",
-   "name": "draft-content",
-   "ar": "صياغة المحتوى",
-   "desc": "مسودات منشورات وصفحات هبوط وبيانات صحفية مع توصيات SEO.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/draft-content"
-  },
-  {
-   "id": "marketing:email-sequence",
-   "name": "email-sequence",
-   "ar": "سلسلة الرسائل",
-   "desc": "تصميم سلاسل بريد إلكتروني متعددة مع التوقيت والتفرعات.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/email-sequence"
-  },
-  {
-   "id": "marketing:performance-report",
-   "name": "performance-report",
-   "ar": "تقرير الأداء",
-   "desc": "تقرير أداء تسويقي بالمؤشرات والاتجاهات والتوصيات.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/performance-report"
-  },
-  {
-   "id": "marketing:seo-audit",
-   "name": "seo-audit",
-   "ar": "تدقيق SEO",
-   "desc": "تدقيق شامل لتحسين محركات البحث وخطة عمل مرتبة.",
-   "group": "marketing",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/seo-audit"
-  },
-  {
-   "id": "design:accessibility-review",
-   "name": "accessibility-review",
-   "ar": "تدقيق الإتاحة",
-   "desc": "فحص التصميم وفق معيار WCAG 2.1 AA: التباين ولوحة المفاتيح وقارئ الشاشة.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/accessibility-review"
-  },
-  {
-   "id": "design:design-critique",
-   "name": "design-critique",
-   "ar": "نقد التصميم",
-   "desc": "ملاحظات منظمة على قابلية الاستخدام والتسلسل البصري والاتساق.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-critique"
-  },
-  {
-   "id": "design:design-handoff",
-   "name": "design-handoff",
-   "ar": "تسليم للمطورين",
-   "desc": "مواصفات تسليم التصميم: التخطيط والرموز والحالات والحركة.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-handoff"
-  },
-  {
-   "id": "design:design-system",
-   "name": "design-system",
-   "ar": "نظام التصميم",
-   "desc": "تدقيق نظام التصميم وتوثيقه وتوسيعه.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-system"
-  },
-  {
-   "id": "design:research-synthesis",
-   "name": "research-synthesis",
-   "ar": "تحليل الأبحاث",
-   "desc": "تحويل المقابلات والاستبيانات إلى أنماط ورؤى وتوصيات.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/research-synthesis"
-  },
-  {
-   "id": "design:user-research",
-   "name": "user-research",
-   "ar": "بحث المستخدمين",
-   "desc": "تخطيط أبحاث المستخدمين وأدلة المقابلات واختبارات الاستخدام.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/user-research"
-  },
-  {
-   "id": "design:ux-copy",
-   "name": "ux-copy",
-   "ar": "نصوص الواجهة",
-   "desc": "كتابة نصوص الأزرار ورسائل الخطأ والحالات الفارغة.",
-   "group": "design",
-   "source": "knowledge-work-plugins — GitHub",
-   "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/ux-copy"
-  },
-  {
-   "id": "adobe:adobe",
-   "name": "adobe",
-   "ar": "جولة Adobe",
-   "desc": "تعريف بقدرات موصل Adobe وأمثلة لكل أداة.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-anydocx",
-   "name": "adobe-anydocx",
-   "ar": "PDF إلى Word",
-   "desc": "تحويل ملف PDF إلى مستند Word بدقة عالية.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-anyexcel",
-   "name": "adobe-anyexcel",
-   "ar": "PDF إلى Excel",
-   "desc": "استخراج جداول PDF إلى جدول بيانات Excel.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-anypdf",
-   "name": "adobe-anypdf",
-   "ar": "أدوات PDF",
-   "desc": "ضغط PDF ودمجه وتقسيمه والتعرّف الضوئي والتحويل عبر Acrobat.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-anypptx",
-   "name": "adobe-anypptx",
-   "ar": "PDF إلى عرض",
-   "desc": "تحويل PDF إلى عرض PowerPoint.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-batch-edit-photos",
-   "name": "adobe-batch-edit-photos",
-   "ar": "تحرير صور جماعي",
-   "desc": "توحيد ألوان وأسلوب مجموعة صور دفعة واحدة.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-create-pdfs-from-data",
-   "name": "adobe-create-pdfs-from-data",
-   "ar": "دمج البيانات",
-   "desc": "دمج ملف CSV مع قالب InDesign لإنتاج شهادات وبطاقات.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-create-social-variations",
-   "name": "adobe-create-social-variations",
-   "ar": "مقاسات التواصل",
-   "desc": "تجهيز صورة أو فيديو بمقاسات كل منصة تواصل.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-design-from-template",
-   "name": "adobe-design-from-template",
-   "ar": "تصميم من قالب",
-   "desc": "تصميم ملصقات وبطاقات ومنشورات من قوالب Adobe Express.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-design-to-pdf",
-   "name": "adobe-design-to-pdf",
-   "ar": "تصميم للطباعة",
-   "desc": "تحويل التصميم إلى PDF جاهز للطباعة أو رابط مشاركة.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-document-review",
-   "name": "adobe-document-review",
-   "ar": "مراجعة المستندات",
-   "desc": "تظليل أهم ما في PDF مع تعليقات: مخاطر وتواريخ وأرقام.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-edit-quick-cut",
-   "name": "adobe-edit-quick-cut",
-   "ar": "مقطع مختصر",
-   "desc": "صنع مقطع أبرز اللقطات من فيديو طويل.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-fonts",
-   "name": "adobe-fonts",
-   "ar": "خطوط Adobe",
-   "desc": "البحث عن خطوط Adobe ومعاينتها ومعرفة دعمها للغات.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-resize-photos-and-videos",
-   "name": "adobe-resize-photos-and-videos",
-   "ar": "تغيير المقاس",
-   "desc": "تغيير أبعاد الصور والفيديو بدقة إلى أي مقاس.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "adobe:adobe-retouch-portraits",
-   "name": "adobe-retouch-portraits",
-   "ar": "تنقيح البورتريه",
-   "desc": "تنقيح جماعي لصور الأشخاص: استقامة وإضاءة ونغمة.",
-   "group": "adobe",
-   "source": "Adobe for Creativity",
-   "url": "https://www.adobe.com"
-  },
-  {
-   "id": "n8n:n8n-knowledge",
-   "name": "n8n-knowledge",
-   "ar": "معرفة n8n",
-   "desc": "بحث معمّق في توثيق n8n وحلول المجتمع ومشاكل GitHub.",
-   "group": "n8n",
-   "source": "n8n",
-   "url": "https://n8n.io"
-  },
-  {
-   "id": "n8n:n8n-workflow-check",
-   "name": "n8n-workflow-check",
-   "ar": "فحص سير عمل n8n",
-   "desc": "بناء أو إصلاح ملف سير عمل n8n واختباره بأحداث صحيحة وخاطئة ومكررة.",
-   "group": "n8n",
-   "source": "n8n",
-   "url": "https://n8n.io"
-  },
-  {
-   "id": "synter:replicate",
-   "name": "replicate",
-   "ar": "نسخ الحملة بين المنصات",
-   "desc": "إعادة بناء حملة إعلانية من منصة إلى أخرى (مثل Google إلى Microsoft أو Meta إلى TikTok).",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:launch",
-   "name": "launch",
-   "ar": "إطلاق حملة",
-   "desc": "تخطيط حملة متعددة المنصات وإطلاقها بعد موافقتك.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:quickstart",
-   "name": "quickstart",
-   "ar": "البدء السريع",
-   "desc": "تسجيل الدخول وتأكيد مساحة العمل وأول تقرير.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:connect",
-   "name": "connect",
-   "ar": "ربط الحسابات",
-   "desc": "ربط حسابات الإعلانات وGA4 بمساحة Synter.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:help",
-   "name": "help",
-   "ar": "المساعدة",
-   "desc": "شرح المهارات والأدوات وخيارات الدعم.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:ad-copy-generation",
-   "name": "ad-copy-generation",
-   "ar": "كتابة الإعلانات",
-   "desc": "عناوين وأوصاف ونصوص إعلانية مناسبة لكل منصة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:ad-policy-compliance",
-   "name": "ad-policy-compliance",
-   "ar": "سياسات الإعلانات",
-   "desc": "فحص الإعلان وصفحة الهبوط مقابل سياسات المنصات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:anomaly-detector",
-   "name": "anomaly-detector",
-   "ar": "كشف الشذوذ",
-   "desc": "رصد قفزات الإنفاق وانخفاض النقرات والتحويلات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:attribution",
-   "name": "attribution",
-   "ar": "الإسناد",
-   "desc": "معرفة أي منصة تقود التحويلات فعلاً.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:audience",
-   "name": "audience",
-   "ar": "الجمهور",
-   "desc": "مراجعة الجماهير وتخطيط الاستهداف والاستثناءات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:audience-expansion-strategy",
-   "name": "audience-expansion-strategy",
-   "ar": "توسيع الجمهور",
-   "desc": "جماهير مشابهة وطبقات استهداف دون رفع التكلفة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:bid-optimization",
-   "name": "bid-optimization",
-   "ar": "تحسين المزايدة",
-   "desc": "توصيات المزايدة واستراتيجيات CPA وROAS.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:campaign-preflight",
-   "name": "campaign-preflight",
-   "ar": "فحص ما قبل الإطلاق",
-   "desc": "مراجعة الهيكل والتتبع والميزانية قبل التشغيل.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:campaign-structure-auditor",
-   "name": "campaign-structure-auditor",
-   "ar": "تدقيق هيكل الحساب",
-   "desc": "كشف تكرار الكلمات المفتاحية وفوضى الهيكل في Google Ads.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:competitor-analysis",
-   "name": "competitor-analysis",
-   "ar": "تحليل المنافسين",
-   "desc": "معرفة إعلانات المنافسين وزواياهم وعروضهم.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:conversion-tracking",
-   "name": "conversion-tracking",
-   "ar": "تتبع التحويلات",
-   "desc": "التحقق من البكسل والتحويلات قبل الإطلاق.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:creative-fatigue-detector",
-   "name": "creative-fatigue-detector",
-   "ar": "إرهاق الإعلان",
-   "desc": "معرفة متى يجب تبديل الإعلانات وتحديثها.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:creative-testing",
-   "name": "creative-testing",
-   "ar": "اختبار الإعلانات",
-   "desc": "تصميم اختبارات A/B وقراءة النتائج بدقة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:dayparting",
-   "name": "dayparting",
-   "ar": "جدولة الإعلانات",
-   "desc": "تشغيل الإعلانات في الساعات والأيام الأفضل أداءً.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:executive-reporting",
-   "name": "executive-reporting",
-   "ar": "تقرير تنفيذي",
-   "desc": "تقارير للإدارة: العائد والمقارنات والسرد المبسط.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:first-party-data-strategy",
-   "name": "first-party-data-strategy",
-   "ar": "بيانات الطرف الأول",
-   "desc": "التتبع من الخادم ووضع الموافقة لما بعد الكوكيز.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:geo-integrity-audit",
-   "name": "geo-integrity-audit",
-   "ar": "تدقيق الاستهداف الجغرافي",
-   "desc": "التأكد من أن الإعلانات تصل للمناطق المقصودة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:google-ads-quality-score",
-   "name": "google-ads-quality-score",
-   "ar": "نقاط الجودة",
-   "desc": "تحسين نقاط جودة Google Ads لخفض التكلفة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:google-shopping-optimizer",
-   "name": "google-shopping-optimizer",
-   "ar": "تحسين Shopping",
-   "desc": "تحسين خلاصة المنتجات وحملات Google Shopping.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:incrementality-testing",
-   "name": "incrementality-testing",
-   "ar": "اختبار الأثر الفعلي",
-   "desc": "قياس هل الإعلانات تسبب التحويلات فعلاً.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:keyword-research",
-   "name": "keyword-research",
-   "ar": "بحث الكلمات المفتاحية",
-   "desc": "إيجاد كلمات بحث عالية النية وقليلة الهدر.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:kill-scale-rules",
-   "name": "kill-scale-rules",
-   "ar": "إيقاف أو توسيع",
-   "desc": "قواعد قرار إيقاف الحملة أو زيادة ميزانيتها.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:linkedin-ads-targeting",
-   "name": "linkedin-ads-targeting",
-   "ar": "استهداف LinkedIn",
-   "desc": "استهداف بالمسمى الوظيفي والشركات وABM.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:media-plan",
-   "name": "media-plan",
-   "ar": "الخطة الإعلامية",
-   "desc": "توزيع الميزانية على القنوات وتوقعات التكلفة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:meta-ads-diagnostics",
-   "name": "meta-ads-diagnostics",
-   "ar": "تشخيص Meta",
-   "desc": "حل مشاكل التوصيل والأداء في إعلانات فيسبوك وإنستغرام.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:mmm-budget-planner",
-   "name": "mmm-budget-planner",
-   "ar": "تخطيط الميزانية",
-   "desc": "إعادة توزيع الميزانية حسب العائد مع سيناريوهات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:negative-keywords",
-   "name": "negative-keywords",
-   "ar": "الكلمات السلبية",
-   "desc": "إيقاف الإنفاق المهدور من مصطلحات البحث غير المرتبطة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:optimize",
-   "name": "optimize",
-   "ar": "التحسين",
-   "desc": "إعادة توزيع الميزانية وإيقاف الخاسر وتوسيع الرابح.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:performance-max-optimizer",
-   "name": "performance-max-optimizer",
-   "ar": "تحسين PMax",
-   "desc": "تحسين حملات Performance Max وأصولها.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:pixel-capi-auditor",
-   "name": "pixel-capi-auditor",
-   "ar": "تدقيق البكسل",
-   "desc": "تدقيق البكسل وConversions API على كل المنصات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-amazon",
-   "name": "platform-amazon",
-   "ar": "إعلانات أمازون",
-   "desc": "دليل إعلانات Amazon Ads وDSP.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-benchmarks",
-   "name": "platform-benchmarks",
-   "ar": "معايير المنصات",
-   "desc": "متوسطات CPM وCPC وCPA لكل منصة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-google",
-   "name": "platform-google",
-   "ar": "Google Ads",
-   "desc": "تشغيل حملات البحث وPMax والعرض والفيديو.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-linkedin",
-   "name": "platform-linkedin",
-   "ar": "LinkedIn Ads",
-   "desc": "تشغيل حملات B2B وتوليد العملاء.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-meta",
-   "name": "platform-meta",
-   "ar": "Meta Ads",
-   "desc": "تشغيل إعلانات فيسبوك وإنستغرام.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-microsoft",
-   "name": "platform-microsoft",
-   "ar": "Microsoft Ads",
-   "desc": "تشغيل إعلانات Bing ونقل حملات Google إليها.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-openai",
-   "name": "platform-openai",
-   "ar": "OpenAI Ads",
-   "desc": "دليل الإعلانات داخل إجابات الذكاء الاصطناعي.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-reddit",
-   "name": "platform-reddit",
-   "ar": "Reddit Ads",
-   "desc": "دليل إعلانات Reddit واستهداف المجتمعات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-tiktok",
-   "name": "platform-tiktok",
-   "ar": "TikTok Ads",
-   "desc": "دليل إعلانات تيك توك وSpark Ads.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:platform-x",
-   "name": "platform-x",
-   "ar": "X Ads",
-   "desc": "دليل إعلانات منصة X.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:pre-pause-analysis",
-   "name": "pre-pause-analysis",
-   "ar": "تحليل قبل الإيقاف",
-   "desc": "التأكد من أن المشكلة حقيقية قبل إيقاف أي حملة.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:report",
-   "name": "report",
-   "ar": "التقرير",
-   "desc": "تقرير أداء عبر القنوات: إنفاق وتحويلات وعائد.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:retargeting-sequence-designer",
-   "name": "retargeting-sequence-designer",
-   "ar": "إعادة الاستهداف",
-   "desc": "تصميم مسارات إعادة استهداف متعددة المراحل.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:roas-calculator",
-   "name": "roas-calculator",
-   "ar": "حاسبة العائد",
-   "desc": "حساب ROAS وCPA ونقطة التعادل والربحية.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:seasonal-budget-planner",
-   "name": "seasonal-budget-planner",
-   "ar": "ميزانية المواسم",
-   "desc": "تخطيط ميزانيات الجمعة البيضاء والأعياد.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:utm-builder",
-   "name": "utm-builder",
-   "ar": "روابط UTM",
-   "desc": "بناء معلمات UTM منظمة لروابط الإعلانات.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "synter:video-ad-scriptwriter",
-   "name": "video-ad-scriptwriter",
-   "ar": "سيناريو إعلان فيديو",
-   "desc": "كتابة سيناريوهات فيديو بتوقيت لكل ثانية.",
-   "group": "synter",
-   "source": "Synter — GitHub",
-   "url": "https://github.com/jshorwitz/synter-mcp-server"
-  },
-  {
-   "id": "arcads:clone-hook",
-   "name": "clone-hook",
-   "ar": "استنساخ الخطّاف",
-   "desc": "تحديد افتتاحية إعلان فيديو ناجح واستنساخها لعلامتك.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:viral-clone",
-   "name": "viral-clone",
-   "ar": "استنساخ الفيديو الرائج",
-   "desc": "نسخ إعلان فيديو رائج لقطة بلقطة مع استبدال المنتج بمنتجك.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:clone-static-ad",
-   "name": "clone-static-ad",
-   "ar": "استنساخ إعلان ثابت",
-   "desc": "استنساخ إعلان صوري لعلامتك التجارية.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:ads",
-   "name": "ads",
-   "ar": "صناعة الإعلانات",
-   "desc": "إعلانات صور وفيديو وUGC بممثلين ومونتاج وترجمة.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:spy-competitor-ads",
-   "name": "spy-competitor-ads",
-   "ar": "تجسس على المنافسين",
-   "desc": "تنزيل إعلانات المنافسين من مكتبة إعلانات Meta.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:media-router",
-   "name": "media-router",
-   "ar": "موجّه الوسائط",
-   "desc": "اختيار أداة Arcads المناسبة لأي طلب توليد أو تعديل.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:animated-ad",
-   "name": "animated-ad",
-   "ar": "إعلان متحرك",
-   "desc": "إعلان بأسلوب كولاج ورقي متحرك (Vox) مع سيناريو.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:cinematic-ads",
-   "name": "cinematic-ads",
-   "ar": "إعلان سينمائي",
-   "desc": "فيلم قصير سينمائي يكون فيه منتجك البطل.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:pixar-ad",
-   "name": "pixar-ad",
-   "ar": "إعلان ثلاثي الأبعاد",
-   "desc": "إعلان 15 ثانية بأسلوب أفلام الرسوم ثلاثية الأبعاد.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:image-to-motion",
-   "name": "image-to-motion",
-   "ar": "صورة إلى حركة",
-   "desc": "تحويل أي صورة ثابتة إلى موشن جرافيك.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:static-to-motion",
-   "name": "static-to-motion",
-   "ar": "إعلان ثابت إلى فيديو",
-   "desc": "تحريك إعلان ثابت لمنصات التواصل بنسختين.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:collage-motion",
-   "name": "collage-motion",
-   "ar": "كولاج متحرك",
-   "desc": "أسلوب الكولاج الورقي والهافتون مع تحريك.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:omniflash-restyle",
-   "name": "omniflash-restyle",
-   "ar": "إعادة أسلوب الفيديو",
-   "desc": "إعادة مونتاج فيديو متحدث بأسلوب فيديو مرجعي.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:amazon-listing-system",
-   "name": "amazon-listing-system",
-   "ar": "صور قائمة أمازون",
-   "desc": "مجموعة صور كاملة لقائمة منتج على أمازون.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:fpv-drone-path",
-   "name": "fpv-drone-path",
-   "ar": "مسار الدرون",
-   "desc": "فيديو طيران درون من منظور الشخص الأول فوق صورة.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "arcads:tsunami-soundstage",
-   "name": "tsunami-soundstage",
-   "ar": "مشهد التسونامي",
-   "desc": "قالب جاهز لمشهد الفيضان المصغر في الاستوديو.",
-   "group": "arcads",
-   "source": "Arcads AI",
-   "url": "https://www.arcads.ai"
-  },
-  {
-   "id": "ruflo:ruflo",
-   "name": "ruflo",
-   "ar": "منسّق الوكلاء Ruflo",
-   "desc": "منصة مفتوحة المصدر لتنسيق عدة وكلاء برمجة بالذكاء الاصطناعي (Claude Code وCursor وCodex وغيرها): تشغيل أسراب وكلاء بتنسيق هرمي، وذاكرة دائمة، وأكثر من 300 أداة MCP، وفحص حالة التثبيت، واقتراح إضافاتها المناسبة لمهمتك.",
-   "group": "ruflo",
-   "source": "ruvnet/ruflo — GitHub (MIT)",
-   "url": "https://github.com/ruvnet/ruflo",
-   "manual": true
-  },
-  {
-   "id": "builtin:artifact-design",
-   "name": "artifact-design",
-   "ar": "تصميم الصفحات المنشورة",
-   "desc": "إرشادات وأساسيات تصميم صفحات Artifacts قبل كتابتها.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:artifact-diagramming",
-   "name": "artifact-diagramming",
-   "ar": "مخططات الصفحات",
-   "desc": "رسم مخططات SVG واضحة تشرح الآلية الفعلية داخل صفحات Artifacts.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:artifact-capabilities",
-   "name": "artifact-capabilities",
-   "ar": "قدرات الصفحات التفاعلية",
-   "desc": "منح الصفحات المنشورة قدرات حية كالبيانات المشتركة وحفظ الحالة ومعرفة الزائر.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "builtin:workflow-authoring",
-   "name": "workflow-authoring",
-   "ar": "كتابة سير العمل",
-   "desc": "مرجع لكتابة سكربتات أداة Workflow وأنماط الجودة والاستئناف.",
-   "group": "builtin",
-   "source": "مدمجة في Claude",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:team-start",
-   "name": "team-start",
-   "ar": "بدء فريق ذكاء",
-   "desc": "تخطيط وإنشاء فريق ذكاء اصطناعي لهدف محدد.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:team-board",
-   "name": "team-board",
-   "ar": "لوحة الفريق",
-   "desc": "عرض لوحة مهام الفريق لتشغيل محدد أو لكل الفرق.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:team-status",
-   "name": "team-status",
-   "ar": "حالة الفريق",
-   "desc": "تلخيص تقدّم الفريق والعوائق التي تواجهه.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:team-review",
-   "name": "team-review",
-   "ar": "مراجعة مخرجات الفريق",
-   "desc": "التحقق من مخرجات تشغيل الفريق مقابل معايير القبول.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:team-remember",
-   "name": "team-remember",
-   "ar": "ذاكرة الفريق",
-   "desc": "حفظ سياق معتمد للفريق أو البحث فيما يعرفه مسبقاً.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:team-stop",
-   "name": "team-stop",
-   "ar": "إيقاف الفريق",
-   "desc": "إيقاف الفريق مؤقتاً مع الاحتفاظ بأدلته.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:launch-ai-team",
-   "name": "launch-ai-team",
-   "ar": "إطلاق فريق ذكاء",
-   "desc": "إنشاء فريق بأدوار وميزانية ومهام محددة لتقسيم هدف كبير.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:coordinate-team-work",
-   "name": "coordinate-team-work",
-   "ar": "تنسيق مهام الفريق",
-   "desc": "إنشاء المهام وإسنادها وتحديثها بحيث يكون لكل مهمة مالك ومُخرج واحد.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:monitor-ai-team",
-   "name": "monitor-ai-team",
-   "ar": "متابعة الفريق",
-   "desc": "تقرير بتقدّم الفريق وعوائقه ومُلّاك المهام والميزانية المسجّلة.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:manage-team-lifecycle",
-   "name": "manage-team-lifecycle",
-   "ar": "دورة حياة الفريق",
-   "desc": "إيقاف الفريق أو استئنافه أو إنهاؤه مع الحفاظ على أدلته.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:remember-team-context",
-   "name": "remember-team-context",
-   "ar": "سياق الفريق",
-   "desc": "تخزين سياق معتمد لكل فريق والبحث فيه لاحقاً مع مصدره.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  },
-  {
-   "id": "ruflo-ai-team:review-team-deliverables",
-   "name": "review-team-deliverables",
-   "ar": "تدقيق المخرجات",
-   "desc": "فحص تشغيل الفريق مقابل معايير القبول والتمييز بين الأدلة والادعاءات.",
-   "group": "ruflo-ai-team",
-   "source": "ruvnet — Anthropic Directory",
-   "url": "https://claude.ai"
-  }
- ]
+  "version": 1,
+  "updated": "2026-11-16",
+  "groups": {
+    "builtin": {
+      "ar": "مدمجة في Claude",
+      "color": "#4f7cff"
+    },
+    "marketing": {
+      "ar": "التسويق",
+      "color": "#ff7a59"
+    },
+    "design": {
+      "ar": "التصميم",
+      "color": "#b46cff"
+    },
+    "adobe": {
+      "ar": "Adobe",
+      "color": "#ff3b3b"
+    },
+    "n8n": {
+      "ar": "n8n",
+      "color": "#ea4b71"
+    },
+    "synter": {
+      "ar": "Synter",
+      "color": "#d4af37"
+    },
+    "arcads": {
+      "ar": "Arcads AI",
+      "color": "#ff5ec4"
+    },
+    "ruflo": {
+      "ar": "Ruflo",
+      "color": "#3ec7ff"
+    },
+    "ruflo-ai-team": {
+      "ar": "فريق Ruflo الذكي",
+      "color": "#7c5cff"
+    }
+  },
+  "skills": [
+    {
+      "id": "builtin:docx",
+      "name": "docx",
+      "ar": "مستندات Word",
+      "desc": "إنشاء وقراءة وتعديل ملفات Word ‏(.docx) بما فيها التعليقات وتتبّع التغييرات.",
+      "group": "builtin",
+      "source": "anthropics/skills — GitHub",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/docx"
+    },
+    {
+      "id": "builtin:pdf",
+      "name": "pdf",
+      "ar": "ملفات PDF",
+      "desc": "قراءة PDF ودمجه وتقسيمه وتعبئة النماذج وإضافة العلامات المائية والتعرّف الضوئي على النص.",
+      "group": "builtin",
+      "source": "anthropics/skills — GitHub",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+    },
+    {
+      "id": "builtin:pptx",
+      "name": "pptx",
+      "ar": "عروض PowerPoint",
+      "desc": "إنشاء العروض التقديمية ‏(.pptx) وتعديلها واستخراج محتواها.",
+      "group": "builtin",
+      "source": "anthropics/skills — GitHub",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/pptx"
+    },
+    {
+      "id": "builtin:xlsx",
+      "name": "xlsx",
+      "ar": "جداول Excel",
+      "desc": "إنشاء جداول البيانات وتنظيفها وإضافة المعادلات والرسوم البيانية.",
+      "group": "builtin",
+      "source": "anthropics/skills — GitHub",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+    },
+    {
+      "id": "builtin:skill-creator",
+      "name": "skill-creator",
+      "ar": "صانع المهارات",
+      "desc": "إنشاء مهارات جديدة وتحسين المهارات الحالية وقياس أدائها.",
+      "group": "builtin",
+      "source": "anthropics/skills — GitHub",
+      "url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+    },
+    {
+      "id": "builtin:docs",
+      "name": "docs",
+      "ar": "المستندات",
+      "desc": "إنشاء مستندات قابلة للمشاركة والتعليق والتصدير إلى Word أو PDF.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:video-making",
+      "name": "video-making",
+      "ar": "صناعة الفيديو",
+      "desc": "خطوات إنتاج فيديو جديد من الصفر.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:google-workspace",
+      "name": "google-workspace",
+      "ar": "مساحة عمل جوجل",
+      "desc": "إنشاء وتعديل ملفات Google Docs وSheets وSlides في Drive.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:computer-use",
+      "name": "computer-use",
+      "ar": "التحكم بالحاسوب",
+      "desc": "تشغيل تطبيقات حاسوبك بالنقر والكتابة عبر تطبيق Claude لسطح المكتب.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:chrome-browser",
+      "name": "chrome-browser",
+      "ar": "متصفح كروم",
+      "desc": "العمل داخل متصفح كروم الحقيقي عبر إضافة Claude in Chrome.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:built-in-browser",
+      "name": "built-in-browser",
+      "ar": "المتصفح المدمج",
+      "desc": "استخدام لوحة المتصفح داخل تطبيق Claude لسطح المكتب.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:deep-research",
+      "name": "deep-research",
+      "ar": "البحث المعمّق",
+      "desc": "بحث متعدد المصادر وكتابة تقرير سردي شامل.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:import-memory",
+      "name": "import-memory",
+      "ar": "استيراد الذاكرة",
+      "desc": "نقل ذاكرتك من مساعد ذكاء اصطناعي آخر إلى Claude.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:morning",
+      "name": "morning",
+      "ar": "الموجز الصباحي",
+      "desc": "عرض موجزك الصباحي أو جدولته يومياً.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:dataviz",
+      "name": "dataviz",
+      "ar": "تصوير البيانات",
+      "desc": "قواعد تصميم الرسوم البيانية ولوحات المؤشرات بألوان متناسقة.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:plugin-authoring",
+      "name": "plugin-authoring",
+      "ar": "تعديل الواجهة",
+      "desc": "صنع تعديلات على واجهة Claude وسلوكه: لوحات، أوامر، خطافات.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "marketing:brand-review",
+      "name": "brand-review",
+      "ar": "مراجعة الهوية",
+      "desc": "مراجعة المحتوى مقابل صوت العلامة ودليل الأسلوب مع إصلاحات مقترحة.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/brand-review"
+    },
+    {
+      "id": "marketing:campaign-plan",
+      "name": "campaign-plan",
+      "ar": "خطة الحملة",
+      "desc": "موجز حملة كامل: الأهداف والجمهور والقنوات والتقويم والمقاييس.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/campaign-plan"
+    },
+    {
+      "id": "marketing:competitive-brief",
+      "name": "competitive-brief",
+      "ar": "موجز المنافسين",
+      "desc": "بحث المنافسين ومقارنة الرسائل وكشف الفرص والثغرات.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/competitive-brief"
+    },
+    {
+      "id": "marketing:content-creation",
+      "name": "content-creation",
+      "ar": "إنشاء المحتوى",
+      "desc": "كتابة محتوى تسويقي لكل قناة: مدونات ووسائل تواصل وبريد.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/content-creation"
+    },
+    {
+      "id": "marketing:draft-content",
+      "name": "draft-content",
+      "ar": "صياغة المحتوى",
+      "desc": "مسودات منشورات وصفحات هبوط وبيانات صحفية مع توصيات SEO.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/draft-content"
+    },
+    {
+      "id": "marketing:email-sequence",
+      "name": "email-sequence",
+      "ar": "سلسلة الرسائل",
+      "desc": "تصميم سلاسل بريد إلكتروني متعددة مع التوقيت والتفرعات.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/email-sequence"
+    },
+    {
+      "id": "marketing:performance-report",
+      "name": "performance-report",
+      "ar": "تقرير الأداء",
+      "desc": "تقرير أداء تسويقي بالمؤشرات والاتجاهات والتوصيات.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/performance-report"
+    },
+    {
+      "id": "marketing:seo-audit",
+      "name": "seo-audit",
+      "ar": "تدقيق SEO",
+      "desc": "تدقيق شامل لتحسين محركات البحث وخطة عمل مرتبة.",
+      "group": "marketing",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/marketing/skills/seo-audit"
+    },
+    {
+      "id": "design:accessibility-review",
+      "name": "accessibility-review",
+      "ar": "تدقيق الإتاحة",
+      "desc": "فحص التصميم وفق معيار WCAG 2.1 AA: التباين ولوحة المفاتيح وقارئ الشاشة.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/accessibility-review"
+    },
+    {
+      "id": "design:design-critique",
+      "name": "design-critique",
+      "ar": "نقد التصميم",
+      "desc": "ملاحظات منظمة على قابلية الاستخدام والتسلسل البصري والاتساق.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-critique"
+    },
+    {
+      "id": "design:design-handoff",
+      "name": "design-handoff",
+      "ar": "تسليم للمطورين",
+      "desc": "مواصفات تسليم التصميم: التخطيط والرموز والحالات والحركة.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-handoff"
+    },
+    {
+      "id": "design:design-system",
+      "name": "design-system",
+      "ar": "نظام التصميم",
+      "desc": "تدقيق نظام التصميم وتوثيقه وتوسيعه.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/design-system"
+    },
+    {
+      "id": "design:research-synthesis",
+      "name": "research-synthesis",
+      "ar": "تحليل الأبحاث",
+      "desc": "تحويل المقابلات والاستبيانات إلى أنماط ورؤى وتوصيات.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/research-synthesis"
+    },
+    {
+      "id": "design:user-research",
+      "name": "user-research",
+      "ar": "بحث المستخدمين",
+      "desc": "تخطيط أبحاث المستخدمين وأدلة المقابلات واختبارات الاستخدام.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/user-research"
+    },
+    {
+      "id": "design:ux-copy",
+      "name": "ux-copy",
+      "ar": "نصوص الواجهة",
+      "desc": "كتابة نصوص الأزرار ورسائل الخطأ والحالات الفارغة.",
+      "group": "design",
+      "source": "knowledge-work-plugins — GitHub",
+      "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/design/skills/ux-copy"
+    },
+    {
+      "id": "adobe:adobe",
+      "name": "adobe",
+      "ar": "جولة Adobe",
+      "desc": "تعريف بقدرات موصل Adobe وأمثلة لكل أداة.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-anydocx",
+      "name": "adobe-anydocx",
+      "ar": "PDF إلى Word",
+      "desc": "تحويل ملف PDF إلى مستند Word بدقة عالية.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-anyexcel",
+      "name": "adobe-anyexcel",
+      "ar": "PDF إلى Excel",
+      "desc": "استخراج جداول PDF إلى جدول بيانات Excel.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-anypdf",
+      "name": "adobe-anypdf",
+      "ar": "أدوات PDF",
+      "desc": "ضغط PDF ودمجه وتقسيمه والتعرّف الضوئي والتحويل عبر Acrobat.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-anypptx",
+      "name": "adobe-anypptx",
+      "ar": "PDF إلى عرض",
+      "desc": "تحويل PDF إلى عرض PowerPoint.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-batch-edit-photos",
+      "name": "adobe-batch-edit-photos",
+      "ar": "تحرير صور جماعي",
+      "desc": "توحيد ألوان وأسلوب مجموعة صور دفعة واحدة.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-create-pdfs-from-data",
+      "name": "adobe-create-pdfs-from-data",
+      "ar": "دمج البيانات",
+      "desc": "دمج ملف CSV مع قالب InDesign لإنتاج شهادات وبطاقات.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-create-social-variations",
+      "name": "adobe-create-social-variations",
+      "ar": "مقاسات التواصل",
+      "desc": "تجهيز صورة أو فيديو بمقاسات كل منصة تواصل.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-design-from-template",
+      "name": "adobe-design-from-template",
+      "ar": "تصميم من قالب",
+      "desc": "تصميم ملصقات وبطاقات ومنشورات من قوالب Adobe Express.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-design-to-pdf",
+      "name": "adobe-design-to-pdf",
+      "ar": "تصميم للطباعة",
+      "desc": "تحويل التصميم إلى PDF جاهز للطباعة أو رابط مشاركة.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-document-review",
+      "name": "adobe-document-review",
+      "ar": "مراجعة المستندات",
+      "desc": "تظليل أهم ما في PDF مع تعليقات: مخاطر وتواريخ وأرقام.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-edit-quick-cut",
+      "name": "adobe-edit-quick-cut",
+      "ar": "مقطع مختصر",
+      "desc": "صنع مقطع أبرز اللقطات من فيديو طويل.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-fonts",
+      "name": "adobe-fonts",
+      "ar": "خطوط Adobe",
+      "desc": "البحث عن خطوط Adobe ومعاينتها ومعرفة دعمها للغات.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-resize-photos-and-videos",
+      "name": "adobe-resize-photos-and-videos",
+      "ar": "تغيير المقاس",
+      "desc": "تغيير أبعاد الصور والفيديو بدقة إلى أي مقاس.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "adobe:adobe-retouch-portraits",
+      "name": "adobe-retouch-portraits",
+      "ar": "تنقيح البورتريه",
+      "desc": "تنقيح جماعي لصور الأشخاص: استقامة وإضاءة ونغمة.",
+      "group": "adobe",
+      "source": "Adobe for Creativity",
+      "url": "https://www.adobe.com"
+    },
+    {
+      "id": "n8n:n8n-knowledge",
+      "name": "n8n-knowledge",
+      "ar": "معرفة n8n",
+      "desc": "بحث معمّق في توثيق n8n وحلول المجتمع ومشاكل GitHub.",
+      "group": "n8n",
+      "source": "n8n",
+      "url": "https://n8n.io"
+    },
+    {
+      "id": "n8n:n8n-workflow-check",
+      "name": "n8n-workflow-check",
+      "ar": "فحص سير عمل n8n",
+      "desc": "بناء أو إصلاح ملف سير عمل n8n واختباره بأحداث صحيحة وخاطئة ومكررة.",
+      "group": "n8n",
+      "source": "n8n",
+      "url": "https://n8n.io"
+    },
+    {
+      "id": "synter:replicate",
+      "name": "replicate",
+      "ar": "نسخ الحملة بين المنصات",
+      "desc": "إعادة بناء حملة إعلانية من منصة إلى أخرى (مثل Google إلى Microsoft أو Meta إلى TikTok).",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:launch",
+      "name": "launch",
+      "ar": "إطلاق حملة",
+      "desc": "تخطيط حملة متعددة المنصات وإطلاقها بعد موافقتك.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:quickstart",
+      "name": "quickstart",
+      "ar": "البدء السريع",
+      "desc": "تسجيل الدخول وتأكيد مساحة العمل وأول تقرير.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:connect",
+      "name": "connect",
+      "ar": "ربط الحسابات",
+      "desc": "ربط حسابات الإعلانات وGA4 بمساحة Synter.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:help",
+      "name": "help",
+      "ar": "المساعدة",
+      "desc": "شرح المهارات والأدوات وخيارات الدعم.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:ad-copy-generation",
+      "name": "ad-copy-generation",
+      "ar": "كتابة الإعلانات",
+      "desc": "عناوين وأوصاف ونصوص إعلانية مناسبة لكل منصة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:ad-policy-compliance",
+      "name": "ad-policy-compliance",
+      "ar": "سياسات الإعلانات",
+      "desc": "فحص الإعلان وصفحة الهبوط مقابل سياسات المنصات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:anomaly-detector",
+      "name": "anomaly-detector",
+      "ar": "كشف الشذوذ",
+      "desc": "رصد قفزات الإنفاق وانخفاض النقرات والتحويلات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:attribution",
+      "name": "attribution",
+      "ar": "الإسناد",
+      "desc": "معرفة أي منصة تقود التحويلات فعلاً.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:audience",
+      "name": "audience",
+      "ar": "الجمهور",
+      "desc": "مراجعة الجماهير وتخطيط الاستهداف والاستثناءات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:audience-expansion-strategy",
+      "name": "audience-expansion-strategy",
+      "ar": "توسيع الجمهور",
+      "desc": "جماهير مشابهة وطبقات استهداف دون رفع التكلفة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:bid-optimization",
+      "name": "bid-optimization",
+      "ar": "تحسين المزايدة",
+      "desc": "توصيات المزايدة واستراتيجيات CPA وROAS.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:campaign-preflight",
+      "name": "campaign-preflight",
+      "ar": "فحص ما قبل الإطلاق",
+      "desc": "مراجعة الهيكل والتتبع والميزانية قبل التشغيل.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:campaign-structure-auditor",
+      "name": "campaign-structure-auditor",
+      "ar": "تدقيق هيكل الحساب",
+      "desc": "كشف تكرار الكلمات المفتاحية وفوضى الهيكل في Google Ads.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:competitor-analysis",
+      "name": "competitor-analysis",
+      "ar": "تحليل المنافسين",
+      "desc": "معرفة إعلانات المنافسين وزواياهم وعروضهم.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:conversion-tracking",
+      "name": "conversion-tracking",
+      "ar": "تتبع التحويلات",
+      "desc": "التحقق من البكسل والتحويلات قبل الإطلاق.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:creative-fatigue-detector",
+      "name": "creative-fatigue-detector",
+      "ar": "إرهاق الإعلان",
+      "desc": "معرفة متى يجب تبديل الإعلانات وتحديثها.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:creative-testing",
+      "name": "creative-testing",
+      "ar": "اختبار الإعلانات",
+      "desc": "تصميم اختبارات A/B وقراءة النتائج بدقة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:dayparting",
+      "name": "dayparting",
+      "ar": "جدولة الإعلانات",
+      "desc": "تشغيل الإعلانات في الساعات والأيام الأفضل أداءً.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:executive-reporting",
+      "name": "executive-reporting",
+      "ar": "تقرير تنفيذي",
+      "desc": "تقارير للإدارة: العائد والمقارنات والسرد المبسط.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:first-party-data-strategy",
+      "name": "first-party-data-strategy",
+      "ar": "بيانات الطرف الأول",
+      "desc": "التتبع من الخادم ووضع الموافقة لما بعد الكوكيز.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:geo-integrity-audit",
+      "name": "geo-integrity-audit",
+      "ar": "تدقيق الاستهداف الجغرافي",
+      "desc": "التأكد من أن الإعلانات تصل للمناطق المقصودة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:google-ads-quality-score",
+      "name": "google-ads-quality-score",
+      "ar": "نقاط الجودة",
+      "desc": "تحسين نقاط جودة Google Ads لخفض التكلفة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:google-shopping-optimizer",
+      "name": "google-shopping-optimizer",
+      "ar": "تحسين Shopping",
+      "desc": "تحسين خلاصة المنتجات وحملات Google Shopping.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:incrementality-testing",
+      "name": "incrementality-testing",
+      "ar": "اختبار الأثر الفعلي",
+      "desc": "قياس هل الإعلانات تسبب التحويلات فعلاً.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:keyword-research",
+      "name": "keyword-research",
+      "ar": "بحث الكلمات المفتاحية",
+      "desc": "إيجاد كلمات بحث عالية النية وقليلة الهدر.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:kill-scale-rules",
+      "name": "kill-scale-rules",
+      "ar": "إيقاف أو توسيع",
+      "desc": "قواعد قرار إيقاف الحملة أو زيادة ميزانيتها.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:linkedin-ads-targeting",
+      "name": "linkedin-ads-targeting",
+      "ar": "استهداف LinkedIn",
+      "desc": "استهداف بالمسمى الوظيفي والشركات وABM.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:media-plan",
+      "name": "media-plan",
+      "ar": "الخطة الإعلامية",
+      "desc": "توزيع الميزانية على القنوات وتوقعات التكلفة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:meta-ads-diagnostics",
+      "name": "meta-ads-diagnostics",
+      "ar": "تشخيص Meta",
+      "desc": "حل مشاكل التوصيل والأداء في إعلانات فيسبوك وإنستغرام.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:mmm-budget-planner",
+      "name": "mmm-budget-planner",
+      "ar": "تخطيط الميزانية",
+      "desc": "إعادة توزيع الميزانية حسب العائد مع سيناريوهات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:negative-keywords",
+      "name": "negative-keywords",
+      "ar": "الكلمات السلبية",
+      "desc": "إيقاف الإنفاق المهدور من مصطلحات البحث غير المرتبطة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:optimize",
+      "name": "optimize",
+      "ar": "التحسين",
+      "desc": "إعادة توزيع الميزانية وإيقاف الخاسر وتوسيع الرابح.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:performance-max-optimizer",
+      "name": "performance-max-optimizer",
+      "ar": "تحسين PMax",
+      "desc": "تحسين حملات Performance Max وأصولها.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:pixel-capi-auditor",
+      "name": "pixel-capi-auditor",
+      "ar": "تدقيق البكسل",
+      "desc": "تدقيق البكسل وConversions API على كل المنصات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-amazon",
+      "name": "platform-amazon",
+      "ar": "إعلانات أمازون",
+      "desc": "دليل إعلانات Amazon Ads وDSP.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-benchmarks",
+      "name": "platform-benchmarks",
+      "ar": "معايير المنصات",
+      "desc": "متوسطات CPM وCPC وCPA لكل منصة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-google",
+      "name": "platform-google",
+      "ar": "إعلانات جوجل",
+      "desc": "تشغيل حملات البحث وPMax والعرض والفيديو.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-linkedin",
+      "name": "platform-linkedin",
+      "ar": "إعلانات لينكدإن",
+      "desc": "تشغيل حملات B2B وتوليد العملاء.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-meta",
+      "name": "platform-meta",
+      "ar": "إعلانات ميتا",
+      "desc": "تشغيل إعلانات فيسبوك وإنستغرام.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-microsoft",
+      "name": "platform-microsoft",
+      "ar": "إعلانات مايكروسوفت",
+      "desc": "تشغيل إعلانات Bing ونقل حملات Google إليها.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-openai",
+      "name": "platform-openai",
+      "ar": "إعلانات OpenAI",
+      "desc": "دليل الإعلانات داخل إجابات الذكاء الاصطناعي.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-reddit",
+      "name": "platform-reddit",
+      "ar": "إعلانات ريديت",
+      "desc": "دليل إعلانات Reddit واستهداف المجتمعات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-tiktok",
+      "name": "platform-tiktok",
+      "ar": "إعلانات تيك توك",
+      "desc": "دليل إعلانات تيك توك وSpark Ads.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:platform-x",
+      "name": "platform-x",
+      "ar": "إعلانات منصة X",
+      "desc": "دليل إعلانات منصة X.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:pre-pause-analysis",
+      "name": "pre-pause-analysis",
+      "ar": "تحليل قبل الإيقاف",
+      "desc": "التأكد من أن المشكلة حقيقية قبل إيقاف أي حملة.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:report",
+      "name": "report",
+      "ar": "التقرير",
+      "desc": "تقرير أداء عبر القنوات: إنفاق وتحويلات وعائد.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:retargeting-sequence-designer",
+      "name": "retargeting-sequence-designer",
+      "ar": "إعادة الاستهداف",
+      "desc": "تصميم مسارات إعادة استهداف متعددة المراحل.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:roas-calculator",
+      "name": "roas-calculator",
+      "ar": "حاسبة العائد",
+      "desc": "حساب ROAS وCPA ونقطة التعادل والربحية.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:seasonal-budget-planner",
+      "name": "seasonal-budget-planner",
+      "ar": "ميزانية المواسم",
+      "desc": "تخطيط ميزانيات الجمعة البيضاء والأعياد.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:utm-builder",
+      "name": "utm-builder",
+      "ar": "روابط UTM",
+      "desc": "بناء معلمات UTM منظمة لروابط الإعلانات.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "synter:video-ad-scriptwriter",
+      "name": "video-ad-scriptwriter",
+      "ar": "سيناريو إعلان فيديو",
+      "desc": "كتابة سيناريوهات فيديو بتوقيت لكل ثانية.",
+      "group": "synter",
+      "source": "Synter — GitHub",
+      "url": "https://github.com/jshorwitz/synter-mcp-server"
+    },
+    {
+      "id": "arcads:clone-hook",
+      "name": "clone-hook",
+      "ar": "استنساخ الخطّاف",
+      "desc": "تحديد افتتاحية إعلان فيديو ناجح واستنساخها لعلامتك.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:viral-clone",
+      "name": "viral-clone",
+      "ar": "استنساخ الفيديو الرائج",
+      "desc": "نسخ إعلان فيديو رائج لقطة بلقطة مع استبدال المنتج بمنتجك.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:clone-static-ad",
+      "name": "clone-static-ad",
+      "ar": "استنساخ إعلان ثابت",
+      "desc": "استنساخ إعلان صوري لعلامتك التجارية.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:ads",
+      "name": "ads",
+      "ar": "صناعة الإعلانات",
+      "desc": "إعلانات صور وفيديو وUGC بممثلين ومونتاج وترجمة.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:spy-competitor-ads",
+      "name": "spy-competitor-ads",
+      "ar": "تجسس على المنافسين",
+      "desc": "تنزيل إعلانات المنافسين من مكتبة إعلانات Meta.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:media-router",
+      "name": "media-router",
+      "ar": "موجّه الوسائط",
+      "desc": "اختيار أداة Arcads المناسبة لأي طلب توليد أو تعديل.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:animated-ad",
+      "name": "animated-ad",
+      "ar": "إعلان متحرك",
+      "desc": "إعلان بأسلوب كولاج ورقي متحرك (Vox) مع سيناريو.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:cinematic-ads",
+      "name": "cinematic-ads",
+      "ar": "إعلان سينمائي",
+      "desc": "فيلم قصير سينمائي يكون فيه منتجك البطل.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:pixar-ad",
+      "name": "pixar-ad",
+      "ar": "إعلان ثلاثي الأبعاد",
+      "desc": "إعلان 15 ثانية بأسلوب أفلام الرسوم ثلاثية الأبعاد.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:image-to-motion",
+      "name": "image-to-motion",
+      "ar": "صورة إلى حركة",
+      "desc": "تحويل أي صورة ثابتة إلى موشن جرافيك.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:static-to-motion",
+      "name": "static-to-motion",
+      "ar": "إعلان ثابت إلى فيديو",
+      "desc": "تحريك إعلان ثابت لمنصات التواصل بنسختين.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:collage-motion",
+      "name": "collage-motion",
+      "ar": "كولاج متحرك",
+      "desc": "أسلوب الكولاج الورقي والهافتون مع تحريك.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:omniflash-restyle",
+      "name": "omniflash-restyle",
+      "ar": "إعادة أسلوب الفيديو",
+      "desc": "إعادة مونتاج فيديو متحدث بأسلوب فيديو مرجعي.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:amazon-listing-system",
+      "name": "amazon-listing-system",
+      "ar": "صور قائمة أمازون",
+      "desc": "مجموعة صور كاملة لقائمة منتج على أمازون.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:fpv-drone-path",
+      "name": "fpv-drone-path",
+      "ar": "مسار الدرون",
+      "desc": "فيديو طيران درون من منظور الشخص الأول فوق صورة.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "arcads:tsunami-soundstage",
+      "name": "tsunami-soundstage",
+      "ar": "مشهد التسونامي",
+      "desc": "قالب جاهز لمشهد الفيضان المصغر في الاستوديو.",
+      "group": "arcads",
+      "source": "Arcads AI",
+      "url": "https://www.arcads.ai"
+    },
+    {
+      "id": "ruflo:ruflo",
+      "name": "ruflo",
+      "ar": "منسّق الوكلاء Ruflo",
+      "desc": "منصة مفتوحة المصدر لتنسيق عدة وكلاء برمجة بالذكاء الاصطناعي (Claude Code وCursor وCodex وغيرها): تشغيل أسراب وكلاء بتنسيق هرمي، وذاكرة دائمة، وأكثر من 300 أداة MCP، وفحص حالة التثبيت، واقتراح إضافاتها المناسبة لمهمتك.",
+      "group": "ruflo",
+      "source": "ruvnet/ruflo — GitHub (MIT)",
+      "url": "https://github.com/ruvnet/ruflo",
+      "manual": true
+    },
+    {
+      "id": "builtin:artifact-design",
+      "name": "artifact-design",
+      "ar": "تصميم الصفحات المنشورة",
+      "desc": "إرشادات وأساسيات تصميم صفحات Artifacts قبل كتابتها.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:artifact-diagramming",
+      "name": "artifact-diagramming",
+      "ar": "مخططات الصفحات",
+      "desc": "رسم مخططات SVG واضحة تشرح الآلية الفعلية داخل صفحات Artifacts.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:artifact-capabilities",
+      "name": "artifact-capabilities",
+      "ar": "قدرات الصفحات التفاعلية",
+      "desc": "منح الصفحات المنشورة قدرات حية كالبيانات المشتركة وحفظ الحالة ومعرفة الزائر.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "builtin:workflow-authoring",
+      "name": "workflow-authoring",
+      "ar": "كتابة سير العمل",
+      "desc": "مرجع لكتابة سكربتات أداة Workflow وأنماط الجودة والاستئناف.",
+      "group": "builtin",
+      "source": "مدمجة في Claude",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:team-start",
+      "name": "team-start",
+      "ar": "بدء فريق ذكاء",
+      "desc": "تخطيط وإنشاء فريق ذكاء اصطناعي لهدف محدد.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:team-board",
+      "name": "team-board",
+      "ar": "لوحة الفريق",
+      "desc": "عرض لوحة مهام الفريق لتشغيل محدد أو لكل الفرق.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:team-status",
+      "name": "team-status",
+      "ar": "حالة الفريق",
+      "desc": "تلخيص تقدّم الفريق والعوائق التي تواجهه.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:team-review",
+      "name": "team-review",
+      "ar": "مراجعة مخرجات الفريق",
+      "desc": "التحقق من مخرجات تشغيل الفريق مقابل معايير القبول.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:team-remember",
+      "name": "team-remember",
+      "ar": "ذاكرة الفريق",
+      "desc": "حفظ سياق معتمد للفريق أو البحث فيما يعرفه مسبقاً.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:team-stop",
+      "name": "team-stop",
+      "ar": "إيقاف الفريق",
+      "desc": "إيقاف الفريق مؤقتاً مع الاحتفاظ بأدلته.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:launch-ai-team",
+      "name": "launch-ai-team",
+      "ar": "إطلاق فريق ذكاء",
+      "desc": "إنشاء فريق بأدوار وميزانية ومهام محددة لتقسيم هدف كبير.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:coordinate-team-work",
+      "name": "coordinate-team-work",
+      "ar": "تنسيق مهام الفريق",
+      "desc": "إنشاء المهام وإسنادها وتحديثها بحيث يكون لكل مهمة مالك ومُخرج واحد.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:monitor-ai-team",
+      "name": "monitor-ai-team",
+      "ar": "متابعة الفريق",
+      "desc": "تقرير بتقدّم الفريق وعوائقه ومُلّاك المهام والميزانية المسجّلة.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:manage-team-lifecycle",
+      "name": "manage-team-lifecycle",
+      "ar": "دورة حياة الفريق",
+      "desc": "إيقاف الفريق أو استئنافه أو إنهاؤه مع الحفاظ على أدلته.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:remember-team-context",
+      "name": "remember-team-context",
+      "ar": "سياق الفريق",
+      "desc": "تخزين سياق معتمد لكل فريق والبحث فيه لاحقاً مع مصدره.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    },
+    {
+      "id": "ruflo-ai-team:review-team-deliverables",
+      "name": "review-team-deliverables",
+      "ar": "تدقيق المخرجات",
+      "desc": "فحص تشغيل الفريق مقابل معايير القبول والتمييز بين الأدلة والادعاءات.",
+      "group": "ruflo-ai-team",
+      "source": "ruvnet — Anthropic Directory",
+      "url": "https://claude.ai"
+    }
+  ]
 }
